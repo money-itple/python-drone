@@ -21,7 +21,6 @@ if __name__ == '__main__':
         sleep(2)
         drone.sendLightDefaultColor(LightModeDrone.BodyDimming, 1, 0, 0, 255)
         sleep(2)
-    drone.close()
 ```
 
 ## LED 색깔 랜덤으로 바꾸기
